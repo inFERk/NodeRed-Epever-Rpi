@@ -25,4 +25,9 @@ La lectura del estado del sitio se realizará mediante consultas a los controlad
 **Instación de Nodered**
 1. Debemos instalar nodered
   - > sudo apt install nodered
-2. 
+2. Activamos el nodered
+  - > sudo systemctl enable nodered.service
+3. Reiniciamos nodered
+  - > sudo systemctl restart nodered.service
+4. Entramos a la pagina principal de nodered desde la dirección https://direccionip:1880
+![This is an image](https://github.com/inFERk/NodeRed-Epever-Rpi/blob/main/images/menu-importar-nodered.png)
