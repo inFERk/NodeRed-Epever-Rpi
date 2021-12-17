@@ -29,5 +29,15 @@ La lectura del estado del sitio se realizará mediante consultas a los controlad
   - > sudo systemctl enable nodered.service
 3. Reiniciamos nodered
   - > sudo systemctl restart nodered.service
-4. Entramos a la pagina principal de nodered desde la dirección https://direccionip:1880
+4. Entramos a la pagina principal de nodered desde la dirección https://direccionip:1880 
+5. Accedemos a la opción de menús
 ![This is an image](https://github.com/inFERk/NodeRed-Epever-Rpi/blob/main/images/menu-importar-nodered.png)
+6. En el menu anterior seleccionamos manage palette y vamos a instalar las siguientes nodos desde la opcion install.
+  - > node-red-dashboard
+  - > node-red-contrib-modbus
+  - > node-red-contrib-influxdb
+  - > node-red-contrib-moment
+7. Importamos el archivo json con el desarrollo del dashboard. Esto lo realizamos entrando en el menú del punto 5 y seleccionamos import, para anexar el dashboard ya cargado.
+![This is an image](https://github.com/inFERk/NodeRed-Epever-Rpi/blob/main/images/importar-json.png)
+9. Finalizaremos nuestro darshboar y se verá de la siguiente manera.
+![This is an image](https://github.com/inFERk/NodeRed-Epever-Rpi/blob/main/images/pantalla-nodered.png)
