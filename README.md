@@ -12,17 +12,17 @@ La lectura del estado del sitio se realizará mediante consultas a los controlad
 **Instalación del Raspberry Pi**
 1. Como primer paso necesitaremos descargar la aplicación llamada imager, esta es la encargada de descargar la imagen de raspbian que requiramos para posteriormente ser instalada la microSD.
    También es posible seleccionar opciones extras (ctrl+shift+x), como son activar el ssh, asignar un hostname, configurar el wifi y seleccionar el país del wifi, también podemos elegir la zona horaria y el teclado.
-   - > sudo apt install rpi-imager
+  - > sudo apt install rpi-imager
 2. Conectamos la rpi a la energía y a la red para empezar a configurarla y nos conectamos a ella por ssh desde nuestro equipo. El hostname es el que asignamos en el punto anterior.
-   - > ssh pi@hostname.local
+  - > ssh pi@hostname.local
 3. Inciamos la preparación de nuestro equipo.Para esto ejecutamos la configuración del rpi, para expandir la memoria
-   - > sudo raspi-config
+  - > sudo raspi-config
 4. Actualizamos el equipo para estar al día
-   - > sudo apt update
-   - > sudo apt upgrade
+  - > sudo apt update
+  - > sudo apt upgrade
 6. 
 
 **Instación de Nodered**
 1. Debemos instalar nodered
-   - > sudo apt install nodered
+  - > sudo apt install nodered
 2. 
