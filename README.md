@@ -39,5 +39,5 @@ La lectura del estado del sitio se realizará mediante consultas a los controlad
   - > node-red-contrib-moment
 7. Importamos el archivo json con el desarrollo del dashboard. Esto lo realizamos entrando en el menú del punto 5 y seleccionamos import, para anexar el dashboard ya cargado.
 ![This is an image](https://github.com/inFERk/NodeRed-Epever-Rpi/blob/main/images/importar-json.png)
-9. Finalizaremos nuestro darshboar y se verá de la siguiente manera.
+9. Finalizaremos nuestro darshboard y se verá de la siguiente manera.
 ![This is an image](https://github.com/inFERk/NodeRed-Epever-Rpi/blob/main/images/pantalla-nodered.png)
