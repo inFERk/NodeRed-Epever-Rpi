@@ -20,7 +20,7 @@ La lectura del estado del sitio se realizará mediante consultas a los controlad
 4. Actualizamos el equipo para estar al día
   - > sudo apt update
   - > sudo apt upgrade
-6. 
+5. Con esto terminamos la instalación principal de la rpi y procederemos a la instalación  
 
 **Instación de Nodered**
 1. Debemos instalar nodered
